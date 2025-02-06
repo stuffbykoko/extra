@@ -17,4 +17,5 @@ echo "LET'S GO!"
 
 source build/envsetup.sh
 
+export FORCE_JSON=1
 lunch yaap_a52q-user && m installclean && m yaap
