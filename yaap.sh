@@ -8,10 +8,10 @@ git clone https://github.com/stuffbykoko/local_manifests --depth 1 -b yaap .repo
 
 /opt/crave/resync.sh
 
+/opt/crave/resync.sh
+
 rm -rf vendor/yaap/signing/keys
 git clone https://gitea.com/koko-07870/tmp -b tmp vendor/yaap/signing/keys
-export BUILD_USERNAME=koko-07870
-export BUILD_HOSTNAME=crave
 
 echo "LET'S GO!"
 
