@@ -4,7 +4,7 @@ rm -rf .repo/local_manifests
 
 repo init -u https://github.com/yaap/manifest.git -b fifteen --git-lfs
 
-git clone https://github.com/stuffbykoko/local_manifests --depth 1 -b yaap .repo/local_manifests
+git clone https://github.com/stuffbykoko/local_manifests -b yaap .repo/local_manifests
 
 cd prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9
 git reset --hard
