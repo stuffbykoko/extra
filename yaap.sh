@@ -17,6 +17,8 @@ echo "LET'S GO!"
 
 source build/envsetup.sh
 
-export FORCE_JSON=1
-
 lunch yaap_a52q-user && m installclean && m yaap
+
+rm -rf out/target/product/a52q/a52q.json
+export FORCE_JSON=1
+bash vendor/yaap/tools/generate_json_build_info.sh out/target/product/a52q/YAAP*.zip
