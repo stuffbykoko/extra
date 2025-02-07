@@ -1,6 +1,7 @@
 #!/bin/bash
 
 rm -rf .repo/local_manifests
+rm -rf prebuilts/gcc
 
 repo init -u https://github.com/yaap/manifest.git -b fifteen --git-lfs
 
