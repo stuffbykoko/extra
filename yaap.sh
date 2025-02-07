@@ -8,7 +8,7 @@ git clone https://github.com/stuffbykoko/local_manifests --depth 1 -b yaap .repo
 
 /opt/crave/resync.sh
 
-/opt/crave/resync.sh
+repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 
 rm -rf vendor/yaap/signing/keys
 git clone https://gitea.com/koko-07870/tmp -b tmp vendor/yaap/signing/keys
