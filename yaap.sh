@@ -11,6 +11,8 @@ git reset --hard
 git clean -fd
 cd -
 
+rm -rf prebuilts/gcc
+
 /opt/crave/resync.sh
 
 rm -rf vendor/yaap/signing/keys
