@@ -15,6 +15,9 @@ echo "LET'S GO!"
 
 source build/envsetup.sh
 
+export BUILD_USERNAME=nobody
+export BUILD_HOSTNAME=crave
+
 breakfast a52q && mka installclean && mka bacon
 
 curl bashupload.com -T out/target/product/a52q/PixelOS*.zip
