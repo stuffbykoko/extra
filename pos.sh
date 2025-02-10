@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# base project: derpfest
 rm -rf .repo/local_manifests
 
 repo init -u https://github.com/PixelOS-AOSP/manifest.git -b fifteen --git-lfs
