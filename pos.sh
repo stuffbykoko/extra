@@ -8,9 +8,6 @@ git clone https://github.com/stuffbykoko/local_manifests -b pos .repo/local_mani
 
 /opt/crave/resync.sh
 
-rm -rf vendor/aosp/signing/keys
-git clone https://gitea.com/koko-07870/tmp -b tmp vendor/aosp/signing/keys
-
 echo "LET'S GO!"
 
 source build/envsetup.sh
