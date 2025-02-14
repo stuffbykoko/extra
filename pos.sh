@@ -8,6 +8,8 @@ git clone https://github.com/stuffbykoko/local_manifests -b pos .repo/local_mani
 
 /opt/crave/resync.sh
 
+cd kernel/samsung/sm7125 && git reset --hard HEAD~11 && cd -
+
 echo "LET'S GO!"
 
 source build/envsetup.sh
