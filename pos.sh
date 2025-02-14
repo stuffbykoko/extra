@@ -17,6 +17,6 @@ source build/envsetup.sh
 export BUILD_USERNAME=nobody
 export BUILD_HOSTNAME=crave
 
-breakfast a72q && mka installclean && mka bacon
+breakfast a52q && mka installclean && mka bacon
 
-curl bashupload.com -T out/target/product/a72q/PixelOS*.zip
+curl bashupload.com -T out/target/product/a52q/PixelOS*.zip
