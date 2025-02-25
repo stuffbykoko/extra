@@ -12,4 +12,4 @@ echo "LET'S GO!"
 
 source build/envsetup.sh
 
-lunch yaap_a52q-user && mka bacon
+lunch yaap_a52q-user && m yaap
