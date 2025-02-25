@@ -12,4 +12,4 @@ echo "LET'S GO!"
 
 source build/envsetup.sh
 
-breakfast a52q && mka bacon
+breakfast a52q && mka bacon -j$(nproc --all)
