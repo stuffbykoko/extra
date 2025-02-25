@@ -2,9 +2,9 @@
 
 rm -rf .repo/local_manifests
 
-repo init -u https://github.com/yaap/manifest.git -b fifteen --git-lfs
+repo init -u https://github.com/PixelOS-AOSP/manifest.git -b fifteen --git-lfs
 
-git clone https://github.com/stuffbykoko/local_manifests -b yaap .repo/local_manifests
+git clone https://github.com/stuffbykoko/local_manifests -b pos .repo/local_manifests
 
 repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 
@@ -12,4 +12,4 @@ echo "LET'S GO!"
 
 source build/envsetup.sh
 
-lunch yaap_a52q-user && m installclean && m yaap
+breakfast a52q && mka bacon
