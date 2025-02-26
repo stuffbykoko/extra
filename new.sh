@@ -1,6 +1,7 @@
 #!/bin/bash
 
 rm -rf .repo/local_manifests
+rm -rf out/soong/*.glob*
 
 repo init -u https://github.com/AxionAOSP/android.git -b lineage-22.1 --git-lfs
 
