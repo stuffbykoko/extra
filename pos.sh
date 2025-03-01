@@ -1,6 +1,7 @@
 #!/bin/bash
 
 rm -rf .repo/local_manifests
+rm -rf device/samsung
 
 repo init -u https://github.com/PixelOS-AOSP/manifest.git -b fifteen --git-lfs
 
