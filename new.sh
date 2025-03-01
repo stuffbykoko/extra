@@ -2,7 +2,7 @@
 
 rm -rf .repo/local_manifests
 
-repo init -u https://github.com/AOSPA/manifest -b vauxite
+repo init -u https://github.com/stuffbykoko/manifest -b vauxite
 
 git clone https://github.com/stuffbykoko/local_manifests -b vauxite .repo/local_manifests
 
