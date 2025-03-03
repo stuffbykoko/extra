@@ -9,3 +9,7 @@ git clone https://github.com/stuffbykoko/local_manifests -b yaap .repo/local_man
 repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 
 echo -e "\e[34m Repo Sync finished \e[0m"
+
+source build/envsetup.sh
+
+lunch yaap_a52q-user && m installclean && m yaap
